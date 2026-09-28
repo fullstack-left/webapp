@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "AvtoSmart — подготовка к ПДД",
+  "short_name": "AvtoSmart",
+  "description": "Учебная платформа для изучения правил дорожного движения Узбекистана и подготовки к пробному экзамену.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "./#/home",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Пробный экзамен", "short_name": "Экзамен", "url": "./#/new-exam", "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "Темы", "short_name": "Темы", "url": "./#/topics", "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "Ошибки", "short_name": "Ошибки", "url": "./#/mistakes", "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] }
+  ]
+}

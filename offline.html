@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="uz-Latn" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07111f">
+  <title>AvtoSmart — Offline</title>
+  <style>
+    :root{color-scheme:dark;font-family:Inter,system-ui,sans-serif;background:#07111f;color:#f5f8fc}*{box-sizing:border-box}body{min-height:100dvh;margin:0;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 70% 10%,#173663,#07111f 55%)}main{width:min(520px,100%);padding:34px;border:1px solid #27405f;border-radius:26px;background:#102034;box-shadow:0 30px 80px #0006;text-align:center}.mark{width:82px;height:82px;display:grid;place-items:center;margin:auto;border-radius:25px;background:linear-gradient(145deg,#5b8cff,#806cff);font-size:2.2rem}h1{margin:20px 0 8px;font-size:2rem;letter-spacing:-.04em}p{margin:0;color:#9bb0c8;line-height:1.6}a{min-height:48px;display:inline-flex;align-items:center;justify-content:center;margin-top:24px;padding:10px 20px;border-radius:13px;background:linear-gradient(135deg,#5b8cff,#806cff);color:white;font-weight:800;text-decoration:none}</style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">↻</div>
+    <h1 id="offline-title">Internet aloqasi yo‘q</h1>
+    <p id="offline-text">Avval ochilgan AvtoSmart kontenti offline ishlaydi. Bu sahifani yangilab ko‘ring yoki bosh sahifaga qayting.</p>
+    <a id="offline-link" href="./#/home">AvtoSmart’ga qaytish</a>
+  </main>
+  <script>
+    try {
+      const lang = JSON.parse(localStorage.getItem("avtosmart:v2"))?.settings?.lang || "uz";
+      const copy = {
+        uz: ["Internet aloqasi yo‘q", "Avval ochilgan AvtoSmart kontenti offline ishlaydi. Bu sahifani yangilab ko‘ring yoki bosh sahifaga qayting.", "AvtoSmart’ga qaytish", "uz-Latn", "AvtoSmart — Offline rejim"],
+        cy: ["Интернет алоқаси йўқ", "Аввал очилган AvtoSmart контенти offline ишлайди. Саҳифани янгилаб кўринг ёки бош саҳифага қайтинг.", "AvtoSmart’га қайтиш", "uz-Cyrl", "AvtoSmart — Offline режим"],
+        ru: ["Нет подключения к интернету", "Ранее открытый контент AvtoSmart доступен офлайн. Обновите страницу или вернитесь на главную.", "Вернуться в AvtoSmart", "ru", "AvtoSmart — офлайн"]
+      }[lang];
+      document.documentElement.lang = copy[3];
+      document.title = copy[4];
+      document.getElementById("offline-title").textContent = copy[0];
+      document.getElementById("offline-text").textContent = copy[1];
+      document.getElementById("offline-link").textContent = copy[2];
+    } catch {}
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "AvtoSmart — ЙҲҚ тайёргарлик",
+  "short_name": "AvtoSmart",
+  "description": "Ўзбекистон йўл ҳаракати қоидаларини ўрганиш ва синов имтиҳонига тайёрланиш учун таълим платформаси.",
+  "lang": "uz-Cyrl",
+  "dir": "ltr",
+  "start_url": "./#/home",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Синов имтиҳони", "short_name": "Имтиҳон", "url": "./#/new-exam", "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "Мавзулар", "short_name": "Мавзулар", "url": "./#/topics", "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "Хатолар", "short_name": "Хатолар", "url": "./#/mistakes", "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] }
+  ]
+}

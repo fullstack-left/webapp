@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">AvtoSmart</title>
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="450" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f9cff"/><stop offset=".52" stop-color="#596fe8"/><stop offset="1" stop-color="#8c56d9"/>
+    </linearGradient>
+    <linearGradient id="road" x1="256" y1="220" x2="256" y2="465" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#243b66"/><stop offset="1" stop-color="#0b1730"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#09152c" flood-opacity=".35"/></filter>
+  </defs>
+  <rect x="18" y="18" width="476" height="476" rx="124" fill="url(#bg)"/>
+  <circle cx="392" cy="112" r="66" fill="#71e0e8" opacity=".15"/>
+  <path d="M122 472 211 202h90l89 270Z" fill="url(#road)" opacity=".96"/>
+  <path d="m256 222 2 39m2 40 3 49m3 45 4 58" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".78"/>
+  <g filter="url(#shadow)">
+    <path d="m151 226 29-73c9-22 28-35 52-35h54c24 0 44 13 53 35l28 73 29 24v85c0 12-10 22-22 22h-20c-12 0-22-10-22-22v-8H181v8c0 12-10 22-22 22h-21c-12 0-22-10-22-22v-85Z" fill="#f8fbff"/>
+    <path d="m188 218 23-58c4-10 13-16 24-16h48c11 0 21 6 25 16l22 58Z" fill="#13284a"/>
+    <path d="M168 258h54m74 0h54" stroke="#5895ff" stroke-width="18" stroke-linecap="round"/>
+    <path d="M201 294h116" stroke="#b8c9e5" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="168" cy="306" r="22" fill="#14284a"/><circle cx="350" cy="306" r="22" fill="#14284a"/>
+  </g>
+</svg>
