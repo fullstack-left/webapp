@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">AvtoSmart maskable icon</title>
+  <defs><linearGradient id="bg" x1="40" y1="30" x2="480" y2="490"><stop stop-color="#4f9cff"/><stop offset=".55" stop-color="#596fe8"/><stop offset="1" stop-color="#8c56d9"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <path d="M132 512 218 207h76l86 305Z" fill="#102245" opacity=".9"/>
+  <path d="m256 228 1 35m3 38 3 44m3 42 4 57" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".72"/>
+  <path d="m167 237 25-64c8-19 24-30 45-30h45c21 0 38 11 46 30l24 64 25 21v73c0 10-9 19-19 19h-18c-10 0-19-9-19-19v-7H190v7c0 10-9 19-19 19h-18c-10 0-19-9-19-19v-73Z" fill="#f8fbff"/>
+  <path d="m198 230 20-50c3-9 11-14 20-14h42c10 0 18 5 22 14l19 50Z" fill="#152d55"/>
+  <path d="M182 265h45m65 0h45" stroke="#5895ff" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="180" cy="307" r="18" fill="#14284a"/><circle cx="338" cy="307" r="18" fill="#14284a"/>
+</svg>

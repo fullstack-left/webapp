@@ -1,0 +1,50 @@
+{
+  "id": "./",
+  "name": "AvtoSmart — YHQ tayyorgarlik",
+  "short_name": "AvtoSmart",
+  "description": "O‘zbekiston yo‘l harakati qoidalarini o‘rganish va sinov imtihoniga tayyorlanish uchun zamonaviy ta’lim platformasi.",
+  "lang": "uz-Latn",
+  "dir": "ltr",
+  "start_url": "./#/home",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sinov imtihoni",
+      "short_name": "Imtihon",
+      "url": "./#/new-exam",
+      "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Mavzular",
+      "short_name": "Mavzular",
+      "url": "./#/topics",
+      "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Xatolar",
+      "short_name": "Xatolar",
+      "url": "./#/mistakes",
+      "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
